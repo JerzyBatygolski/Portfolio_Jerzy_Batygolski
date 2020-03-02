@@ -1,5 +1,5 @@
 # Portfolio_Jerzy_Batygolski
-To jest portfolio zawierające przykładowe zrealizowane projekty:
+Dzień dobry. To jest portfolio zawierające przykładowe zrealizowane projekty:
 
 1. Symulator ruchu ulicznego - projekt w C++ napisany obiektowo (symulacja w folderze 1_Symulator_ruchu_ulicznego/Debug/Project1.exe).
 2. Dwukołowy robot mobilny sterowany z aplikacji na smartfona - projekt w oparciu o Arduino, Bluetooth i MIT App Inventor 2.
