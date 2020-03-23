@@ -1,4 +1,4 @@
-# Portfolio_Jerzy_Batygolski
+# Portfolio Jerzy Batygolski
 Dzień dobry. To jest portfolio zawierające przykładowe zrealizowane projekty:
 
 1. Symulator ruchu ulicznego - projekt w C++ napisany obiektowo (symulacja w folderze 1_Symulator_ruchu_ulicznego/Debug/Project1.exe).
