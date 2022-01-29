@@ -5,7 +5,7 @@ Dzień dobry. To jest portfolio zawierające przykładowe, zrealizowane przeze m
 
 2. Dwukołowy robot mobilny sterowany z aplikacji na smartfona - projekt w oparciu o Arduino, Bluetooth i MIT App Inventor 2.
 
-3. Symulator ruchu ulicznego - projekt w C++ napisany obiektowo.
+3. Symulator ruchu ulicznego - projekt w C++ napisany obiektowo z graficznym interfejsem użytkownika.
 
 4. Tester losowości sześciennych kości do gry - projekt układu elektronicznego z mikroprocesorem ATmega328P.
 
