@@ -19,7 +19,7 @@ Tech stack: C, Wolfram Mathematica, Matlab
 
 4. Simulation of an Ising-doped voter model on a square lattice. The simulation was a part of my scientific paper in Physical Review:
 https://journals.aps.org/pre/abstract/10.1103/PhysRevE.105.064120
-Tech stack: C, Wolfram Mathematica, Matlab
+Tech stack: C, Wolfram Mathematica, Matlab, Linux
 
 #Robotics
 
