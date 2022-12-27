@@ -1,6 +1,6 @@
 # Portfolio Jerzy Batygolski
-Dzień dobry. To jest portfolio zawierające przykładowe, zrealizowane przeze mnie projekty:
-Hello, this is a portfolio of my projects. Let's check it out. 
+
+Hello, this is a portfolio of my projects. Let's check it out :) 
 
 1. Symulacja wytwórni soku jabłkowego - projekt symulacji i wizualizacji procesu produkcji soku jabłkowego w środowisku Codesys. Program napisany w ST na sterownik Astraada. Nagrano przykładowe filmy ilustrujące działanie i możliwości symulacji. Link do filmów znajduje się w folderze z projektem.
 
