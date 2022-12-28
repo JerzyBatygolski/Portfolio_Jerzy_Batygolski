@@ -28,8 +28,7 @@ Tech stack: Arduino, Bluetooth, MIT App Inventor 2, electronic circuits
 
 #Industrial automation
 
-6. Simulation of an apple juice factory in a Codesys software. Code wtitten in ST language on Astraada PLC. 
-Symulacja wytwórni soku jabłkowego - projekt symulacji i wizualizacji procesu produkcji soku jabłkowego w środowisku Codesys. Program napisany w ST na sterownik Astraada. Nagrano 
+6. Simulation of an apple juice factory in a Codesys software. Code wtitten in ST language on Astraada PLC.  
 Tech stack: Codesys, ST, PLC, thermodynamics
 
 
