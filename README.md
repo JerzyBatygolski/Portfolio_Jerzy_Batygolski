@@ -11,7 +11,7 @@ Tech stack: Visual Studio C++, classical mechanics
 
 ## Embedded systems
 
-2. Cubic dice randomness tester - electronic circuit design with ATmega328P microprocessor. If you play boardgame with friends, you can check if you had luck or bad and saw statistics of your rolls.
+2. Cubic dice randomness tester - electronic circuit design with ATmega328P microprocessor. If you play boardgames with friends, you can check if you had luck or bad and saw statistics of your rolls.
 Tech stack: Arduino, soldered electronic circuits
 
 ![cubic_dice1](https://user-images.githubusercontent.com/58355098/210137938-6819b901-d594-4b55-8fc3-05fa3c974b3f.png)
