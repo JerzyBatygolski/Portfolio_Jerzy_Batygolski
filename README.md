@@ -30,6 +30,10 @@ Tech stack: C, Wolfram Mathematica, Matlab, kinetic theory, statistical physics
 https://journals.aps.org/pre/abstract/10.1103/PhysRevE.105.064120
 Tech stack: C, Wolfram Mathematica, Matlab, Linux
 
+![ising1](https://user-images.githubusercontent.com/58355098/210149436-f5e161af-67c0-41d3-ae35-306e3d09f00d.PNG)
+
+![ising2](https://user-images.githubusercontent.com/58355098/210149438-9e82622c-af2a-4f11-9aa9-503c4366ca6c.PNG)
+
 ## Robotics
 
 5. Two-wheeled mobile robot controlled from a smartphone app.
