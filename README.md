@@ -2,7 +2,7 @@
 
 Hello, this is portfolio of my programming projects. Let's check it out :)
 
-#GUI applications
+## GUI applications
 
 1. Traffic simulation with GUI, written in C++ in OOP paradigm. The main aim is to mimic real traffic with smoothness of car movements including collision avoidance.
 Tech stack: Visual Studio C++, classical mechanics
