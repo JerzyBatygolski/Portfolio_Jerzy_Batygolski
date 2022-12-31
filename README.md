@@ -18,11 +18,11 @@ Tech stack: Codesys, ST, PLC, thermodynamics
 <html>
 <body>
   
-<iframe src="https://drive.google.com/file/d/1JZsQh7TqLLvlzfODqZeAZer3aLXTMdE0/view?usp=share_link" ></iframe>
+<iframe src="https://drive.google.com/file/d/1JZsQh7TqLLvlzfODqZeAZer3aLXTMdE0/view?usp=share_link/preview" ></iframe>
   
   <!--aloow full screen add tag -->
   
-<iframe allowfullscreen="allowfullscreen" src="https://drive.google.com/file/d/1JZsQh7TqLLvlzfODqZeAZer3aLXTMdE0/view?usp=share_link" ></iframe>
+<iframe allowfullscreen="allowfullscreen" src="https://drive.google.com/file/d/1JZsQh7TqLLvlzfODqZeAZer3aLXTMdE0/view?usp=share_link/preview" ></iframe>
 
 </body>
 </html>
