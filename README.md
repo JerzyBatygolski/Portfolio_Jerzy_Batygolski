@@ -14,6 +14,10 @@ Tech stack: Visual Studio C++, classical mechanics
 2. Cubic dice randomness tester - electronic circuit design with ATmega328P microprocessor. If you play boardgame with friends, you can check if you had luck or bad and saw statistics of your rolls.
 Tech stack: Arduino, soldered electronic circuits
 
+![cubic_dice1](https://user-images.githubusercontent.com/58355098/210137938-6819b901-d594-4b55-8fc3-05fa3c974b3f.png)
+
+![cubic_dice2](https://user-images.githubusercontent.com/58355098/210137942-9cfeb8b8-0c82-4242-b386-8145a5080bb0.png)
+
 ## Physics
 
 3. Simulation of an ideal gas in a box. We can see how 10 000 of particles, starting from random initail positions and orientations, but having the same magnitudes of velocities, reaches the Maxwell-Boltzmann distribution of speeds. If we add gravity and temperature gradient (e.g. heating at the bottom and cooling at the top), the particles tend to self-organize and start to move in a convection roll.
