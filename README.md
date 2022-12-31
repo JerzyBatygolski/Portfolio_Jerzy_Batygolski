@@ -20,7 +20,7 @@ Tech stack: Arduino, soldered electronic circuits
 
 ## Physics
 
-3. Simulation of an ideal gas in a box. We can see how 10 000 of particles, starting from random initail positions and orientations, but having the same magnitudes of velocities, reaches the Maxwell-Boltzmann distribution of speeds. If we add gravity and temperature gradient (e.g. heating at the bottom and cooling at the top), the particles tend to self-organize and start to move in a convection roll.
+3. Simulation of an ideal gas in a box. We can see how 10 000 of particles, starting from random initial positions and orientations, but having the same magnitudes of velocities, reaches the Maxwell-Boltzmann distribution of speeds. If we add gravity and temperature gradient (e.g. heating at the bottom and cooling at the top), the particles tend to self-organize and start to move in a convection roll.
 Tech stack: C, Wolfram Mathematica, Matlab, kinetic theory, statistical physics
 
 ![hist1](https://user-images.githubusercontent.com/58355098/210148843-c3e74f54-6801-480a-a5f7-dcc5eac46050.png)
