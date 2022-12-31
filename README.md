@@ -9,7 +9,7 @@ Tech stack: Visual Studio C++, classical mechanics
 
 ![traffic_sim](https://user-images.githubusercontent.com/58355098/210137217-f03fa930-775c-4f66-b6fe-66e057b7ff27.gif)
 
-## Complex simulations with automatic control software
+## Complex simulations with industrial automation software
 
 2. Simulation of an apple juice factory in a Codesys software. Code is written in ST language on Astraada PLC.  
 Tech stack: Codesys, ST, PLC, thermodynamics
