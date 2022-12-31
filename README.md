@@ -39,6 +39,18 @@ Tech stack: C, Wolfram Mathematica, Matlab, Linux
 5. Two-wheeled mobile robot controlled from a smartphone app.
 Tech stack: Arduino, Bluetooth, MIT App Inventor 2, electronic circuits
 
+![1](https://user-images.githubusercontent.com/58355098/210149712-81a44799-4f93-4baa-962b-70285ab150d7.png)
+
+![3](https://user-images.githubusercontent.com/58355098/210149715-88effbaa-9d87-4f0a-8542-269689ba47b0.png)
+
+![5](https://user-images.githubusercontent.com/58355098/210149716-33e5465b-3d61-44d3-9777-1779e8a9f1cf.PNG)
+
+![6](https://user-images.githubusercontent.com/58355098/210149719-e6154aac-11a9-4fad-baf4-593295581e9f.PNG)
+
+![7](https://user-images.githubusercontent.com/58355098/210149720-5b6fd69a-5215-47cb-b99b-da5ead88aa67.PNG)
+
+![8](https://user-images.githubusercontent.com/58355098/210149722-eb5bc72e-e3db-44e9-8b9f-83f47018e7cc.PNG)
+
 ## Industrial automation
 
 6. Simulation of an apple juice factory in a Codesys software. Code wtitten in ST language on Astraada PLC.  
