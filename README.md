@@ -36,7 +36,7 @@ Tech stack: C, Wolfram Mathematica, Matlab, Linux
 
 ## Robotics
 
-5. Two-wheeled mobile robot controlled from a smartphone app.
+5. Two-wheeled mobile robot controlled from a smartphone app. Robot measures the distance the nearest obstacle and shows it in app.
 Tech stack: Arduino, Bluetooth, MIT App Inventor 2, electronic circuits
 
 ![1](https://user-images.githubusercontent.com/58355098/210149827-46e7e568-acd1-494a-8d66-33e246cff5c3.png)
