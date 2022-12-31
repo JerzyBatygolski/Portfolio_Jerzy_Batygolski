@@ -25,7 +25,7 @@ Tech stack: C, Wolfram Mathematica, Matlab, kinetic theory, statistical physics
 
 ![hist1](https://user-images.githubusercontent.com/58355098/210148843-c3e74f54-6801-480a-a5f7-dcc5eac46050.png)
 
-![hist2](https://user-images.githubusercontent.com/58355098/210148973-b3027f5f-b058-4e2e-bf95-2608ab08efaf.png)
+![hist2](https://user-images.githubusercontent.com/58355098/210149036-abc5c0e1-634b-453b-ad13-38fe8f17923e.png)
 
 4. Simulation of an Ising-doped voter model on a square lattice. The simulation was a part of my scientific paper in Physical Review:
 https://journals.aps.org/pre/abstract/10.1103/PhysRevE.105.064120
