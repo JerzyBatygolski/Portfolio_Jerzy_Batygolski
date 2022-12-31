@@ -1,0 +1,641 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     32117,        633]
+NotebookOptionsPosition[     31432,        614]
+NotebookOutlinePosition[     31838,        630]
+CellTagsIndexPosition[     31795,        627]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"ClearAll", "[", "\"\<Global`*\>\"", "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"tab1", "=", 
+    RowBox[{"Import", "[", 
+     RowBox[{
+     "\"\<C:\\\\Users\\\\Jurek\\\\Desktop\\\\Ising-doped \
+voter\\\\Programy\\\\Ising2D_doped\\\\v6_simulation_article\\\\plik.txt\>\"", 
+      ",", "\"\<Table\>\""}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{"tab2", "=", 
+     RowBox[{"Import", "[", 
+      RowBox[{
+      "\"\<C:\\\\Users\\\\Jurek\\\\Desktop\\\\Nonqequilibrium_thermodynamics\\\
+\\Programy\\\\Ising2D_doped\\\\v6_simulation_article\\\\plik2.txt\>\"", ",", 
+       "\"\<Table\>\""}], "]"}]}], ";", "\[IndentingNewLine]", 
+    RowBox[{"tab3", "=", 
+     RowBox[{"Import", "[", 
+      RowBox[{
+      "\"\<C:\\\\Users\\\\Jurek\\\\Desktop\\\\Nonqequilibrium_thermodynamics\\\
+\\Programy\\\\Ising2D_doped\\\\v6_simulation_article\\\\plik3.txt\>\"", ",", 
+       "\"\<Table\>\""}], "]"}]}], ";"}], "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{"MatrixPlot", "[", 
+  RowBox[{"tab1", ",", 
+   RowBox[{"ColorFunction", "\[Rule]", "\"\<Monochrome\>\""}]}], 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{"MatrixPlot", "[", 
+     RowBox[{"tab2", ",", 
+      RowBox[{"ColorFunction", "\[Rule]", "\"\<Monochrome\>\""}]}], "]"}], 
+    "\[IndentingNewLine]", 
+    RowBox[{"MatrixPlot", "[", 
+     RowBox[{"tab3", ",", 
+      RowBox[{"ColorFunction", "\[Rule]", "\"\<Monochrome\>\""}]}], "]"}]}], 
+   "*)"}]}]}], "Input",
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGAQB2IQfanPonvvjDeOCWLvZ4DoR+LqF0H0VTFbMN1zc9MN
+EG3xx/wdiL7ye9ovEB0Yu1toH5A+YlqhAqIjXEw0QLSaapkuiH720N0GRPsI
+MnaC6MLDb3tAdInMk5BjQHrDouwoEH1pyb9cEG1fcbkQRIt09+ucANLpqmUG
+INqp8ag5iNb452wLovUPmiSdAtIPD4Ylg+hnJ2YsPA+kez3YloHopONiR0H0
+iTPFJ0E0i1m/5gUgHf3IwBRE/+HldOicC/RHcIIHiGY/6VcMokP0uEtBdM2m
+X+cCtr1xnJVz9BKIfmtxnzUISPeVmomCaL7UVH/pnW8c5Zw/BoDo9Ucm+Rw5
+/MbRoGdzAIie1fK89iiQNi3b2QyiH8jdqCo68cZRTO4pmAYAocTLQw==
+  "],
+ CellLabel->"In[22]:=",ExpressionUUID->"797e52dc-1bc1-40b8-849a-61858bd2f69e"],
+
+Cell[BoxData[
+ GraphicsBox[
+  RasterBox[SparseArray[
+   Automatic, {64, 64}, 1., {
+    1, {{0, 22, 35, 48, 66, 88, 110, 130, 150, 177, 207, 237, 266, 292, 314, 
+      338, 360, 380, 401, 425, 454, 474, 494, 514, 539, 568, 598, 634, 670, 
+      706, 745, 783, 819, 853, 894, 935, 975, 1019, 1062, 1102, 1132, 1164, 
+      1197, 1237, 1276, 1317, 1359, 1396, 1433, 1468, 1500, 1534, 1559, 1578, 
+      1592, 1611, 1625, 1642, 1661, 1685, 1709, 1728, 1742, 1754, 
+      1764}, CompressedData["
+1:eJx9VVlimlAUFZM4NoCATGrQ1FYMauMAJE64hiwhG+imu5Dee9+EpPYreecc
+zh3fc/L5++OzXqvV/jRqNQ3+avWO7bieHwyGo812l2b52/v+onkhnOF4PJ0L
+rd3pesPFEo5weIDTN9f/9boG+eFYXLQ6QY+200efFTA7RO/uGW4h4Qfh5sxR
+Jg3Q4CQwFAK43uwPEmu26PueRd9juBRIZBqS6kNESPWVsecLZ5HUjZ5F5GiJ
+rLQFGlmWbThIFstVfpWHbkJ+jMok86hzcLTO90epJ5h8MHWFN1qIA/p+hTZb
+EDasYB3D9eJ5VdjuGNA5N06zKk61mT3LAy6vkI96z/XmCDKsxbWzONsfONaA
+CnuzNINBH07qW5RhiTvGHAVBoaBC6DFfDzZ1JMkbOOqwIJVnF3nbAcGK7YuU
+VIZhmFE8/49GFd33o2RByvSLhktsmmxEXspKqISIzb8asGQljHC0238nRSLS
+PEXK6XSVtoGxmM/wKRovVjeFKitcWtAqZaGRrt0t5w6i8eT5+/THTAoLDVev
+3ZVdCNGHRD9n8fwlWZQ8ad91UwatStU0CnYvROThTSW78brng0LwibSRkzTM
+QAlUmHIvLPSQIbiivA2sEX44KqUinMpt5R3DCsvSzTbLv27Xdf+FeHtbWNZB
+n9TDxXUVK3hs3kCk1pCetkEp1kuCncB9bZY0XqXj9DBfKBmnH1yT2IScLyq2
+0lEszgqfZ7XKfVew8CXNUe04Vvg8BcOUQSbVDDr6UYDMHNePxnBOM7KjV1Ve
+FLoeRpzIiyPGMYvlVRIdtezJFFKX0vsW/+XgJQnc5vuOLSDoXFh2IJoCD9zd
+QwPHAktwOOM/Q3oh/wJvuNf7
+      "]}, CompressedData["
+1:eJztwUENACAMBLDjg49ZQgIJb0wjZDpI2ta+64wkbwYAAAAAAAAAAAAAAAAA
+vtRzdAKV
+     "]}], {{0, 0}, {64, 64}}, {0, 1}],
+  Frame->True,
+  FrameLabel->{None, None},
+  FrameTicks->{{{{63.5, 
+       FormBox["1", TraditionalForm]}, {44.5, 
+       FormBox["20", TraditionalForm]}, {24.5, 
+       FormBox["40", TraditionalForm]}, {0.5, 
+       FormBox["64", TraditionalForm]}}, {{63.5, 
+       FormBox["1", TraditionalForm]}, {44.5, 
+       FormBox["20", TraditionalForm]}, {24.5, 
+       FormBox["40", TraditionalForm]}, {0.5, 
+       FormBox["64", TraditionalForm]}}}, {{{0.5, 
+       FormBox["1", TraditionalForm]}, {19.5, 
+       FormBox["20", TraditionalForm]}, {39.5, 
+       FormBox["40", TraditionalForm]}, {63.5, 
+       FormBox["64", TraditionalForm]}}, {{0.5, 
+       FormBox["1", TraditionalForm]}, {19.5, 
+       FormBox["20", TraditionalForm]}, {39.5, 
+       FormBox["40", TraditionalForm]}, {63.5, 
+       FormBox["64", TraditionalForm]}}}},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  Method->{
+   "AxisPadding" -> Scaled[0.02], "DefaultBoundaryStyle" -> Automatic, 
+    "DefaultGraphicsInteraction" -> {
+     "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+      "Effects" -> {
+       "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+        "Droplines" -> {
+         "freeformCursorMode" -> True, 
+          "placement" -> {"x" -> "All", "y" -> "None"}}}}, "DefaultPlotStyle" -> 
+    Automatic, "DomainPadding" -> Scaled[0.02], "RangePadding" -> 
+    Scaled[0.05]}]], "Output",
+ CellChangeTimes->{3.8607391265007687`*^9, 3.860739301008707*^9, 
+  3.8607399264844737`*^9, 3.8607400829354005`*^9, 3.8631885130955706`*^9, 
+  3.863188645513403*^9, 3.8631887550164204`*^9, 3.8631902135418863`*^9, 
+  3.863190340512734*^9, 3.863190424326619*^9, 3.863190496243493*^9, 
+  3.8631905663549013`*^9},
+ CellLabel->"Out[24]=",ExpressionUUID->"0fa06b45-45c6-4065-ba3a-57bf5c7fc315"]
+}, Open  ]],
+
+Cell[BoxData[
+ GraphicsBox[{
+   {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], Opacity[1.]}], 
+    EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.]}], EdgeForm[None], 
+    {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], Opacity[1.]}], 
+     EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.]}], EdgeForm[None], 
+     {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], Opacity[1.]}], 
+      EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.]}], EdgeForm[None], 
+      {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], Opacity[1.]}], 
+       EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.]}], EdgeForm[None], 
+       {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], Opacity[1.]}],
+         EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.]}], EdgeForm[None], 
+        {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], Opacity[
+         1.]}], EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.]}], EdgeForm[None], 
+         {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], Opacity[
+          1.]}], EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.]}], EdgeForm[
+          None], 
+          {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], Opacity[
+           1.]}], EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.]}], EdgeForm[
+           None], 
+           {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], Opacity[
+            1.]}], EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.]}], EdgeForm[
+            None], 
+            {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], Opacity[
+             1.]}], EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.]}], EdgeForm[
+             None], 
+             {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], Opacity[
+              1.]}], EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.]}], EdgeForm[
+              None], 
+              {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], 
+               Opacity[1.]}], EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.]}], 
+               EdgeForm[None], 
+               {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], 
+                Opacity[1.]}], EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.]}], 
+                EdgeForm[None], 
+                {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], 
+                 Opacity[1.]}], EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.]}],
+                  EdgeForm[None], 
+                 {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], 
+                  Opacity[1.]}], EdgeForm[{RGBColor[0., 0., 0.], Opacity[
+                  1.]}], EdgeForm[None], 
+                  {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], 
+                   Opacity[1.]}], EdgeForm[{RGBColor[0., 0., 0.], Opacity[
+                   1.]}], EdgeForm[None], 
+                   {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], 
+                    Opacity[1.]}], EdgeForm[{RGBColor[0., 0., 0.], Opacity[
+                    1.]}], EdgeForm[None], 
+                    {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], 
+                    Opacity[1.]}], EdgeForm[{RGBColor[0., 0., 0.], Opacity[
+                    1.]}], EdgeForm[None], 
+                    {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], 
+                    Opacity[1.]}], EdgeForm[{RGBColor[0., 0., 0.], Opacity[
+                    1.]}], EdgeForm[None], 
+                    {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], 
+                    Opacity[1.]}], EdgeForm[{RGBColor[0., 0., 0.], Opacity[
+                    1.]}], EdgeForm[None], 
+                    {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], 
+                    Opacity[1.]}], EdgeForm[{RGBColor[0., 0., 0.], Opacity[
+                    1.]}], EdgeForm[None], 
+                    {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], 
+                    Opacity[1.]}], EdgeForm[{RGBColor[0., 0., 0.], Opacity[
+                    1.]}], EdgeForm[None], 
+                    {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], 
+                    Opacity[1.]}], EdgeForm[{RGBColor[0., 0., 0.], Opacity[
+                    1.]}], EdgeForm[None], 
+                    CircleBox[{32.77519379844962, 50.29317223837211}, \
+{31.39534883720927, 9.94832041343669}]}}}}}}}}}}}}}}}}}}}}}}}, 
+   {EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.], AbsoluteThickness[1]}], 
+    EdgeForm[None], FaceForm[GrayLevel[1]], 
+    {EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.], AbsoluteThickness[1]}], 
+     EdgeForm[None], FaceForm[GrayLevel[1]], 
+     {EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.], AbsoluteThickness[1]}], 
+      EdgeForm[None], FaceForm[GrayLevel[1]], 
+      {EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.], AbsoluteThickness[1]}], 
+       EdgeForm[None], FaceForm[GrayLevel[1]], 
+       {EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.], AbsoluteThickness[1]}], 
+        EdgeForm[None], FaceForm[GrayLevel[1]], 
+        {EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.], AbsoluteThickness[1]}], 
+         EdgeForm[None], FaceForm[GrayLevel[1]], 
+         {EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.], AbsoluteThickness[1]}],
+           EdgeForm[None], FaceForm[GrayLevel[1]], 
+          {EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.], AbsoluteThickness[
+           1]}], EdgeForm[None], FaceForm[GrayLevel[1]], 
+           {EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.], AbsoluteThickness[
+            1]}], EdgeForm[None], FaceForm[GrayLevel[1]], 
+            {EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.], AbsoluteThickness[
+             1]}], EdgeForm[None], FaceForm[GrayLevel[1]], 
+             RectangleBox[{13.395348837209301, 48.09678980943153}, \
+{58.485788113695094, 0.6807691375968978}]}}}}}}}}}}, 
+   CircleBox[{18.163537672426646, 28.070976493119517}, \
+{12.276945039257672, 26.901327401800458}], 
+   {EdgeForm[{GrayLevel[0.], Opacity[1.], AbsoluteThickness[1]}], EdgeForm[
+    None], FaceForm[GrayLevel[1]], 
+    RectangleBox[{12.620155038759698, 51.58516190245471}, \
+{60.55297157622739, 4.944335029069682}]}, 
+   {EdgeForm[{GrayLevel[0.], Opacity[1.], AbsoluteThickness[1]}], EdgeForm[
+    None], ArrowBox[{{22.56847545219638, 53.135549499354006`}, {
+     25.410852713178294`, 50.55157017118862}}]}, 
+   {EdgeForm[{GrayLevel[0.], Opacity[1.], AbsoluteThickness[1]}], EdgeForm[
+    None], ArrowBox[{{22.833066294272296`, 3.155172276078794}, {
+     25.705137523313976`, 5.882729432141521}}]}, 
+   {EdgeForm[{GrayLevel[0.], Opacity[1.], AbsoluteThickness[1]}], FaceForm[
+    None], 
+    RectangleBox[{14.558139534883718, 50.16397327196385}, \
+{57.83979328165374, 6.107125726744208}]}, 
+   {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], Opacity[1.]}], 
+    EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.], AbsoluteThickness[1]}], 
+    EdgeForm[None], 
+    ArrowBox[{{61.04743623748364, 45.9449432184556}, {57.99280823595657, 
+     44.30550542598482}}]}, 
+   {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], Opacity[1.]}], 
+    EdgeForm[{GrayLevel[0.], Opacity[1.], AbsoluteThickness[1]}], EdgeForm[
+    None], FaceForm[GrayLevel[1]], 
+    ArrowBox[{{11.71576227390181, 42.85072170462318}, {14.428940568475454`, 
+     42.15363735465117}}]}, InsetBox[
+    GraphicsBox[
+     RasterBox[SparseArray[
+      Automatic, {64, 64}, 1., {
+       1, {{0, 63, 126, 190, 254, 313, 371, 430, 492, 555, 618, 681, 743, 805,
+          861, 921, 983, 1042, 1103, 1167, 1231, 1292, 1355, 1415, 1476, 1536,
+          1600, 1661, 1725, 1788, 1851, 1914, 1978, 2041, 2105, 2169, 2228, 
+         2277, 2308, 2331, 2348, 2362, 2370, 2374, 2375, 2379, 2381, 2383, 
+         2386, 2388, 2389, 2391, 2393, 2393, 2393, 2393, 2393, 2393, 2393, 
+         2393, 2393, 2393, 2393, 2393, 2394}, CompressedData["
+1:eJzN08cSgjAQBuCIvQbFDmIvKFiwV3wGjx59Ad//ZpwMCIIOGEFPzIT98m+y
+k/rlerpQAIBzFAAf+voofyAYikRj8UQyBel0hsnm8oViqcxyFb5aqzearXan
+2xP6A1EajsYTeTqbL5ar9Wa72x+UI+ZhZ56Qk8a/92Zrm2rJmkX086ZFgvO+
+avkrl+XlrMj41zW2VlIHiVLt2Q8u29I6nhPu2SL4Xx/0K+4knKx3EyaxlsEk
+1quBaVzV7ofb5y4d3dOb//lLc82/pQZpgJNngMpRtb5WGOp+qzvh/PuytjfH
+CyO08GiTryqQxrGQlqfyQJR3GZbdIstwEEqFYvgGiP8s9g==
+         "]}, CompressedData["
+1:eJztwaERACAMBLBHMkZXQiK5Q7O/6xDYJHXeuiPJngEAAAAAAAAAAAAAAAAA
+AAAAAIAvDdO6Ag4=
+        "]}], {{0, 0}, {64, 64}}, {0, 1}],
+     Frame->None,
+     FrameLabel->{None, None},
+     FrameTicks->{{{{63.5, 
+          FormBox["1", TraditionalForm]}, {44.5, 
+          FormBox["20", TraditionalForm]}, {24.5, 
+          FormBox["40", TraditionalForm]}, {0.5, 
+          FormBox["64", TraditionalForm]}}, {{63.5, 
+          FormBox["1", TraditionalForm]}, {44.5, 
+          FormBox["20", TraditionalForm]}, {24.5, 
+          FormBox["40", TraditionalForm]}, {0.5, 
+          FormBox["64", TraditionalForm]}}}, {{{0.5, 
+          FormBox["1", TraditionalForm]}, {19.5, 
+          FormBox["20", TraditionalForm]}, {39.5, 
+          FormBox["40", TraditionalForm]}, {63.5, 
+          FormBox["64", TraditionalForm]}}, {{0.5, 
+          FormBox["1", TraditionalForm]}, {19.5, 
+          FormBox["20", TraditionalForm]}, {39.5, 
+          FormBox["40", TraditionalForm]}, {63.5, 
+          FormBox["64", TraditionalForm]}}}},
+     GridLinesStyle->Directive[
+       GrayLevel[0.5, 0.4]],
+     Method->{
+      "AxisPadding" -> Scaled[0.02], "DefaultBoundaryStyle" -> Automatic, 
+       "DefaultGraphicsInteraction" -> {
+        "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+         "Effects" -> {
+          "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+           "Droplines" -> {
+            "freeformCursorMode" -> True, 
+             "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+       "DefaultPlotStyle" -> Automatic, "DomainPadding" -> Scaled[0.02], 
+       "RangePadding" -> Scaled[0.05]}], 
+    Scaled[{0.5649224806201554, 0.4388556574239717}], 
+    Center, {42.764857881136955, 43.228320413436705}, {{1., 0.}, {0., 1.}}], 
+   InsetBox[
+    StyleBox[Cell["PBC",
+      GeneratedCell->False,
+      CellAutoOverwrite->False,
+      CellBaseline->Baseline,
+      TextAlignment->Left,ExpressionUUID->
+      "24894537-d520-4482-825f-96ab3f55967b"],
+     FontSize->14,
+     Background->GrayLevel[1.]], {29.54521963824289, 59.32400772502149}, {
+    Left, Top}, {5.8139534883721025, 3.1007751937984493}, {{1., 0.}, {0., 1.}},
+    Alignment->{Left, Top}], InsetBox[
+    StyleBox[Cell["APBC",
+      GeneratedCell->False,
+      CellAutoOverwrite->False,
+      CellBaseline->Baseline,
+      TextAlignment->Left,ExpressionUUID->
+      "f81052fd-d736-4d1a-9c36-15a713ecb8f5"],
+     FontSize->14,
+     Background->GrayLevel[1.]], {6.41860465116279, 31.158633048018906}, {
+    Left, Top}, {7.105943152454779, 3.445305770887166}, {{1., 0.}, {0., 1.}},
+    Alignment->{Left, Top}]},
+  BoxID -> "Text10",
+  Frame->None,
+  FrameLabel->{None, None},
+  FrameTicks->{{{{63.5, 
+       FormBox["1", TraditionalForm]}, {44.5, 
+       FormBox["20", TraditionalForm]}, {24.5, 
+       FormBox["40", TraditionalForm]}, {0.5, 
+       FormBox["64", TraditionalForm]}}, {{63.5, 
+       FormBox["1", TraditionalForm]}, {44.5, 
+       FormBox["20", TraditionalForm]}, {24.5, 
+       FormBox["40", TraditionalForm]}, {0.5, 
+       FormBox["64", TraditionalForm]}}}, {{{0.5, 
+       FormBox["1", TraditionalForm]}, {19.5, 
+       FormBox["20", TraditionalForm]}, {39.5, 
+       FormBox["40", TraditionalForm]}, {63.5, 
+       FormBox["64", TraditionalForm]}}, {{0.5, 
+       FormBox["1", TraditionalForm]}, {19.5, 
+       FormBox["20", TraditionalForm]}, {39.5, 
+       FormBox["40", TraditionalForm]}, {63.5, 
+       FormBox["64", TraditionalForm]}}}},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  ImagePadding->{{0., 0.}, {0., 0.}},
+  ImageSize->{387., Automatic},
+  Method->{
+   "AxisPadding" -> Scaled[0.02], "DefaultBoundaryStyle" -> Automatic, 
+    "DefaultGraphicsInteraction" -> {
+     "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+      "Effects" -> {
+       "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+        "Droplines" -> {
+         "freeformCursorMode" -> True, 
+          "placement" -> {"x" -> "All", "y" -> "None"}}}}, "DefaultPlotStyle" -> 
+    Automatic, "DomainPadding" -> Scaled[0.02], "RangePadding" -> 
+    Scaled[0.05]},
+  PlotRange->{{-1.3333333333333335`, 65.33333333333333}, {-1.28, 65.28}},
+  PlotRangePadding->Automatic]], "Input",
+ CellChangeTimes->{{3.860737060500251*^9, 3.8607371807491393`*^9}, {
+  3.8607372430217886`*^9, 3.8607373472179103`*^9}, {3.860737392160489*^9, 
+  3.8607374228495607`*^9}, {3.8607376593150187`*^9, 3.860737714937777*^9}, {
+  3.8607377997111516`*^9, 3.860738262852849*^9}, {3.8607383203271255`*^9, 
+  3.8607387395823727`*^9}, {3.860738897358364*^9, 3.860738898605109*^9}, {
+  3.8607393461465607`*^9, 3.8607394544577417`*^9}, {3.8607395053047943`*^9, 
+  3.8607395176580105`*^9}, {3.8607396246136303`*^9, 3.8607397403035293`*^9}, {
+  3.8607403185821743`*^9, 
+  3.8607403777537317`*^9}},ExpressionUUID->"2f6f618f-0b67-425e-b7a4-\
+0098d7b6ca0b"],
+
+Cell[BoxData[
+ GraphicsBox[{
+   {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], Opacity[1.]}], 
+    EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.]}], EdgeForm[None], 
+    {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], Opacity[1.]}], 
+     EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.]}], EdgeForm[None], 
+     {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], Opacity[1.]}], 
+      EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.]}], EdgeForm[None], 
+      {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], Opacity[1.]}], 
+       EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.]}], EdgeForm[None], 
+       {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], Opacity[1.]}],
+         EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.]}], EdgeForm[None], 
+        {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], Opacity[
+         1.]}], EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.]}], EdgeForm[None], 
+         {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], Opacity[
+          1.]}], EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.]}], EdgeForm[
+          None], 
+          {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], Opacity[
+           1.]}], EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.]}], EdgeForm[
+           None], 
+           {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], Opacity[
+            1.]}], EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.]}], EdgeForm[
+            None], 
+            {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], Opacity[
+             1.]}], EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.]}], EdgeForm[
+             None], 
+             {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], Opacity[
+              1.]}], EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.]}], EdgeForm[
+              None], 
+              {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], 
+               Opacity[1.]}], EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.]}], 
+               EdgeForm[None], 
+               {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], 
+                Opacity[1.]}], EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.]}], 
+                EdgeForm[None], 
+                {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], 
+                 Opacity[1.]}], EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.]}],
+                  EdgeForm[None], 
+                 {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], 
+                  Opacity[1.]}], EdgeForm[{RGBColor[0., 0., 0.], Opacity[
+                  1.]}], EdgeForm[None], 
+                  {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], 
+                   Opacity[1.]}], EdgeForm[{RGBColor[0., 0., 0.], Opacity[
+                   1.]}], EdgeForm[None], 
+                   {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], 
+                    Opacity[1.]}], EdgeForm[{RGBColor[0., 0., 0.], Opacity[
+                    1.]}], EdgeForm[None], 
+                    {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], 
+                    Opacity[1.]}], EdgeForm[{RGBColor[0., 0., 0.], Opacity[
+                    1.]}], EdgeForm[None], 
+                    {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], 
+                    Opacity[1.]}], EdgeForm[{RGBColor[0., 0., 0.], Opacity[
+                    1.]}], EdgeForm[None], 
+                    {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], 
+                    Opacity[1.]}], EdgeForm[{RGBColor[0., 0., 0.], Opacity[
+                    1.]}], EdgeForm[None], 
+                    {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], 
+                    Opacity[1.]}], EdgeForm[{RGBColor[0., 0., 0.], Opacity[
+                    1.]}], EdgeForm[None], 
+                    {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], 
+                    Opacity[1.]}], EdgeForm[{RGBColor[0., 0., 0.], Opacity[
+                    1.]}], EdgeForm[None], 
+                    {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], 
+                    Opacity[1.]}], EdgeForm[{RGBColor[0., 0., 0.], Opacity[
+                    1.]}], EdgeForm[None], 
+                    CircleBox[{32.77519379844962, 50.29317223837211}, \
+{31.39534883720927, 9.94832041343669}]}}}}}}}}}}}}}}}}}}}}}}}, 
+   {EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.], AbsoluteThickness[1]}], 
+    EdgeForm[None], FaceForm[GrayLevel[1]], 
+    {EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.], AbsoluteThickness[1]}], 
+     EdgeForm[None], FaceForm[GrayLevel[1]], 
+     {EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.], AbsoluteThickness[1]}], 
+      EdgeForm[None], FaceForm[GrayLevel[1]], 
+      {EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.], AbsoluteThickness[1]}], 
+       EdgeForm[None], FaceForm[GrayLevel[1]], 
+       {EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.], AbsoluteThickness[1]}], 
+        EdgeForm[None], FaceForm[GrayLevel[1]], 
+        {EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.], AbsoluteThickness[1]}], 
+         EdgeForm[None], FaceForm[GrayLevel[1]], 
+         {EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.], AbsoluteThickness[1]}],
+           EdgeForm[None], FaceForm[GrayLevel[1]], 
+          {EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.], AbsoluteThickness[
+           1]}], EdgeForm[None], FaceForm[GrayLevel[1]], 
+           {EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.], AbsoluteThickness[
+            1]}], EdgeForm[None], FaceForm[GrayLevel[1]], 
+            {EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.], AbsoluteThickness[
+             1]}], EdgeForm[None], FaceForm[GrayLevel[1]], 
+             RectangleBox[{13.395348837209301, 48.09678980943153}, \
+{58.485788113695094, 0.6807691375968978}]}}}}}}}}}}, 
+   CircleBox[{18.163537672426646, 28.070976493119517}, \
+{12.276945039257672, 26.901327401800458}], 
+   {EdgeForm[{GrayLevel[0.], Opacity[1.], AbsoluteThickness[1]}], EdgeForm[
+    None], FaceForm[GrayLevel[1]], 
+    RectangleBox[{12.620155038759698, 51.58516190245471}, \
+{60.55297157622739, 4.944335029069682}]}, 
+   {EdgeForm[{GrayLevel[0.], Opacity[1.], AbsoluteThickness[1]}], EdgeForm[
+    None], ArrowBox[{{22.56847545219638, 53.135549499354006`}, {
+     25.410852713178294`, 50.55157017118862}}]}, 
+   {EdgeForm[{GrayLevel[0.], Opacity[1.], AbsoluteThickness[1]}], EdgeForm[
+    None], ArrowBox[{{22.833066294272296`, 3.155172276078794}, {
+     25.705137523313976`, 5.882729432141521}}]}, 
+   {EdgeForm[{GrayLevel[0.], Opacity[1.], AbsoluteThickness[1]}], FaceForm[
+    None], 
+    RectangleBox[{14.558139534883718, 50.16397327196385}, \
+{57.83979328165374, 6.107125726744208}]}, 
+   {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], Opacity[1.]}], 
+    EdgeForm[{RGBColor[0., 0., 0.], Opacity[1.], AbsoluteThickness[1]}], 
+    EdgeForm[None], 
+    ArrowBox[{{61.04743623748364, 45.9449432184556}, {57.99280823595657, 
+     44.30550542598482}}]}, 
+   {AbsoluteThickness[1], StrokeForm[{RGBColor[0., 0., 0.], Opacity[1.]}], 
+    EdgeForm[{GrayLevel[0.], Opacity[1.], AbsoluteThickness[1]}], EdgeForm[
+    None], FaceForm[GrayLevel[1]], 
+    ArrowBox[{{11.71576227390181, 42.85072170462318}, {14.428940568475454`, 
+     42.15363735465117}}]}, 
+   StyleBox[InsetBox[Cell["PBC",
+      GeneratedCell->False,
+      CellAutoOverwrite->False,
+      CellBaseline->Baseline,
+      TextAlignment->Left,ExpressionUUID->
+      "2935093d-36be-42bd-8f47-88d1a40b261f"], \
+{29.674418604651166, 59.46629885335912}, {
+     Left, Top}, {6.072351421188625, 3.1007751937984493}, {{1., 0.}, {0., 1.}},
+     BoxID -> "Text9",
+     Alignment->{Left, Top}],
+    TextAlignment->Center,
+    TextJustification->0,
+    FontSize->14,
+    Background->GrayLevel[1.]], InsetBox[
+    GraphicsBox[
+     RasterBox[SparseArray[
+      Automatic, {64, 64}, 1., {
+       1, {{0, 1, 2, 4, 5, 6, 7, 7, 11, 11, 12, 12, 14, 18, 21, 22, 25, 25, 
+         25, 26, 26, 26, 27, 28, 30, 31, 31, 34, 38, 42, 46, 46, 46, 46, 47, 
+         47, 49, 52, 54, 55, 56, 59, 59, 59, 59, 61, 63, 64, 67, 73, 73, 74, 
+         75, 75, 75, 76, 76, 77, 77, 79, 83, 87, 90, 92, 94}, {{60}, {60}, {
+         12}, {13}, {8}, {45}, {31}, {12}, {13}, {43}, {44}, {10}, {23}, {
+         24}, {25}, {38}, {39}, {64}, {6}, {7}, {54}, {6}, {50}, {51}, {52}, {
+         63}, {10}, {57}, {10}, {57}, {15}, {16}, {17}, {25}, {9}, {17}, {
+         18}, {26}, {9}, {17}, {26}, {44}, {3}, {17}, {26}, {52}, {48}, {
+         32}, {33}, {19}, {33}, {34}, {5}, {6}, {7}, {29}, {8}, {29}, {45}, {
+         44}, {45}, {14}, {18}, {63}, {15}, {54}, {55}, {2}, {3}, {52}, {
+         53}, {54}, {55}, {55}, {2}, {54}, {47}, {1}, {64}, {1}, {2}, {3}, {
+         64}, {1}, {2}, {51}, {59}, {45}, {46}, {59}, {22}, {59}, {59}, {
+         60}}}, CompressedData["
+1:eJxTTMoPSmVkYGCIYxgFo2BkAQAOIgIJ
+        "]}], {{0, 0}, {64, 64}}, {0, 1}],
+     Frame->None,
+     FrameLabel->{None, None},
+     FrameTicks->{{{{63.5, 
+          FormBox["1", TraditionalForm]}, {44.5, 
+          FormBox["20", TraditionalForm]}, {24.5, 
+          FormBox["40", TraditionalForm]}, {0.5, 
+          FormBox["64", TraditionalForm]}}, {{63.5, 
+          FormBox["1", TraditionalForm]}, {44.5, 
+          FormBox["20", TraditionalForm]}, {24.5, 
+          FormBox["40", TraditionalForm]}, {0.5, 
+          FormBox["64", TraditionalForm]}}}, {{{0.5, 
+          FormBox["1", TraditionalForm]}, {19.5, 
+          FormBox["20", TraditionalForm]}, {39.5, 
+          FormBox["40", TraditionalForm]}, {63.5, 
+          FormBox["64", TraditionalForm]}}, {{0.5, 
+          FormBox["1", TraditionalForm]}, {19.5, 
+          FormBox["20", TraditionalForm]}, {39.5, 
+          FormBox["40", TraditionalForm]}, {63.5, 
+          FormBox["64", TraditionalForm]}}}},
+     GridLinesStyle->Directive[
+       GrayLevel[0.5, 0.4]],
+     Method->{
+      "AxisPadding" -> Scaled[0.02], "DefaultBoundaryStyle" -> Automatic, 
+       "DefaultGraphicsInteraction" -> {
+        "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+         "Effects" -> {
+          "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+           "Droplines" -> {
+            "freeformCursorMode" -> True, 
+             "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+       "DefaultPlotStyle" -> Automatic, "DomainPadding" -> Scaled[0.02], 
+       "RangePadding" -> Scaled[0.05]}], 
+    Scaled[{0.5649224806201554, 0.4417672927847345}], 
+    Center, {42.50645994832041, 43.09912144702842}, {{1., 0.}, {0., 1.}}], 
+   InsetBox[
+    StyleBox[Cell["PBC",
+      GeneratedCell->False,
+      CellAutoOverwrite->False,
+      CellBaseline->Baseline,
+      TextAlignment->Left,ExpressionUUID->
+      "571ed4b1-5724-4086-8412-8047078c02ad"],
+     FontSize->14,
+     Background->GrayLevel[1.]], {6.418604651162791, 30.83663477067188}, {
+    Left, Top}, {5.684754521963821, 2.9715762273901807}, {{1., 0.}, {0., 1.}},
+    Alignment->{Left, Top}]},
+  BoxID -> "Text10",
+  Frame->None,
+  FrameLabel->{None, None},
+  FrameTicks->{{{{63.5, 
+       FormBox["1", TraditionalForm]}, {44.5, 
+       FormBox["20", TraditionalForm]}, {24.5, 
+       FormBox["40", TraditionalForm]}, {0.5, 
+       FormBox["64", TraditionalForm]}}, {{63.5, 
+       FormBox["1", TraditionalForm]}, {44.5, 
+       FormBox["20", TraditionalForm]}, {24.5, 
+       FormBox["40", TraditionalForm]}, {0.5, 
+       FormBox["64", TraditionalForm]}}}, {{{0.5, 
+       FormBox["1", TraditionalForm]}, {19.5, 
+       FormBox["20", TraditionalForm]}, {39.5, 
+       FormBox["40", TraditionalForm]}, {63.5, 
+       FormBox["64", TraditionalForm]}}, {{0.5, 
+       FormBox["1", TraditionalForm]}, {19.5, 
+       FormBox["20", TraditionalForm]}, {39.5, 
+       FormBox["40", TraditionalForm]}, {63.5, 
+       FormBox["64", TraditionalForm]}}}},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  ImagePadding->{{0., 0.}, {0., 0.}},
+  ImageSize->{387., Automatic},
+  Method->{
+   "AxisPadding" -> Scaled[0.02], "DefaultBoundaryStyle" -> Automatic, 
+    "DefaultGraphicsInteraction" -> {
+     "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+      "Effects" -> {
+       "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+        "Droplines" -> {
+         "freeformCursorMode" -> True, 
+          "placement" -> {"x" -> "All", "y" -> "None"}}}}, "DefaultPlotStyle" -> 
+    Automatic, "DomainPadding" -> Scaled[0.02], "RangePadding" -> 
+    Scaled[0.05]},
+  PlotRange->{{-1.3333333333333335`, 65.33333333333333}, {-1.28, 65.28}},
+  PlotRangePadding->Automatic]], "Input",
+ CellChangeTimes->{{3.8607400970878735`*^9, 3.860740126107012*^9}, {
+  3.860740406834638*^9, 
+  3.860740421217991*^9}},ExpressionUUID->"4df6f8b2-aa36-4742-be21-\
+7faa11dab153"]
+},
+WindowSize->{1440., 747.75},
+WindowMargins->{{-6, Automatic}, {Automatic, -6}},
+FrontEndVersion->"13.0 for Microsoft Windows (64-bit) (February 4, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"89b44efb-dc2e-4c7f-9c6e-288745f88687"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 2093, 50, 192, "Input",ExpressionUUID->"797e52dc-1bc1-40b8-849a-61858bd2f69e"],
+Cell[2676, 74, 3312, 66, 399, "Output",ExpressionUUID->"0fa06b45-45c6-4065-ba3a-57bf5c7fc315"]
+}, Open  ]],
+Cell[6003, 143, 12871, 235, 399, "Input",ExpressionUUID->"2f6f618f-0b67-425e-b7a4-0098d7b6ca0b"],
+Cell[18877, 380, 12551, 232, 399, "Input",ExpressionUUID->"4df6f8b2-aa36-4742-be21-7faa11dab153"]
+}
+]
+*)
+
