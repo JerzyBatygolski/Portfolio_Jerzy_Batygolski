@@ -23,6 +23,12 @@ Tech stack: Arduino, soldered electronic circuits
 3. Simulation of an ideal gas in a box. We can see how 10 000 of particles, starting from random initail positions and orientations, but having the same magnitudes of velocities, reaches the Maxwell-Boltzmann distribution of speeds. If we add gravity and temperature gradient (e.g. heating at the bottom and cooling at the top), the particles tend to self-organize and start to move in a convection roll.
 Tech stack: C, Wolfram Mathematica, Matlab, kinetic theory, statistical physics
 
+![hist_v_t1000_T11](https://user-images.githubusercontent.com/58355098/210145501-0ae0ea0f-8b47-40b3-b477-f5984ad4a8af.png)
+
+![hist_U_t1000_T11](https://user-images.githubusercontent.com/58355098/210145572-bac6f93c-c74a-4db1-a037-5127f77d607c.png)
+
+![wykres_energia_odczasu](https://user-images.githubusercontent.com/58355098/210145599-3cb84434-eb5e-4c23-b673-3250d381387f.png)
+
 4. Simulation of an Ising-doped voter model on a square lattice. The simulation was a part of my scientific paper in Physical Review:
 https://journals.aps.org/pre/abstract/10.1103/PhysRevE.105.064120
 Tech stack: C, Wolfram Mathematica, Matlab, Linux
