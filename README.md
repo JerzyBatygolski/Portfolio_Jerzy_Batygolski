@@ -30,9 +30,9 @@ Tech stack: C, Wolfram Mathematica, Matlab, kinetic theory, statistical physics
 https://journals.aps.org/pre/abstract/10.1103/PhysRevE.105.064120
 Tech stack: C, Wolfram Mathematica, Matlab, Linux
 
-![ising1](https://user-images.githubusercontent.com/58355098/210149436-f5e161af-67c0-41d3-ae35-306e3d09f00d.PNG)
+![ising1](https://user-images.githubusercontent.com/58355098/210149491-746348dd-37ef-43c5-bd37-b521cf5cc0ef.PNG)
 
-![ising2](https://user-images.githubusercontent.com/58355098/210149438-9e82622c-af2a-4f11-9aa9-503c4366ca6c.PNG)
+![ising2](https://user-images.githubusercontent.com/58355098/210149492-89d5f808-0837-49f6-a120-aec681fef00b.PNG)
 
 ## Robotics
 
