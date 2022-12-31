@@ -43,7 +43,7 @@ Tech stack: Arduino, Bluetooth, MIT App Inventor 2, electronic circuits
 
 ![3](https://user-images.githubusercontent.com/58355098/210149715-88effbaa-9d87-4f0a-8542-269689ba47b0.png)
 
-![5](https://user-images.githubusercontent.com/58355098/210149716-33e5465b-3d61-44d3-9777-1779e8a9f1cf.PNG)
+![5](https://user-images.githubusercontent.com/58355098/210149781-78cc743e-0d0c-4ad4-bfcc-421800192c89.PNG)
 
 ![6](https://user-images.githubusercontent.com/58355098/210149719-e6154aac-11a9-4fad-baf4-593295581e9f.PNG)
 
