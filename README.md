@@ -39,12 +39,10 @@ Tech stack: C, Wolfram Mathematica, Matlab, Linux
 5. Two-wheeled mobile robot controlled from a smartphone app.
 Tech stack: Arduino, Bluetooth, MIT App Inventor 2, electronic circuits
 
-![1](https://user-images.githubusercontent.com/58355098/210149712-81a44799-4f93-4baa-962b-70285ab150d7.png)
-
+![1](https://user-images.githubusercontent.com/58355098/210149827-46e7e568-acd1-494a-8d66-33e246cff5c3.png)
 ![3](https://user-images.githubusercontent.com/58355098/210149715-88effbaa-9d87-4f0a-8542-269689ba47b0.png)
 
 ![5](https://user-images.githubusercontent.com/58355098/210149781-78cc743e-0d0c-4ad4-bfcc-421800192c89.PNG)
-
 ![6](https://user-images.githubusercontent.com/58355098/210149719-e6154aac-11a9-4fad-baf4-593295581e9f.PNG)
 
 ![7](https://user-images.githubusercontent.com/58355098/210149720-5b6fd69a-5215-47cb-b99b-da5ead88aa67.PNG)
