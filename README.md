@@ -14,6 +14,11 @@ Tech stack: Visual Studio C++, classical mechanics
 2. Simulation of an apple juice factory in a Codesys software. Code wtitten in ST language on Astraada PLC.  
 Tech stack: Codesys, ST, PLC, thermodynamics
 
+![wideo1](https://user-images.githubusercontent.com/58355098/210150586-a1fdc358-be6d-47a7-8e29-3ccc2fc87b5f.gif)
+
+![wideo1 (2)](https://user-images.githubusercontent.com/58355098/210150589-a76de1fd-3adb-4d66-bdc5-43a0f09aa07c.gif)
+
+
 
 ## Embedded systems
 
