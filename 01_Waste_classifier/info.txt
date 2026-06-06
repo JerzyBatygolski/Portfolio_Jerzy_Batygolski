@@ -1,0 +1,8 @@
+The project repository: https://github.com/JerzyBatygolski/Waste_classifier
+
+Live demo: https://waste-classifier-ui-943543256910.europe-central2.run.app
+
+Info: The service uses cold-start Cloud Run instances. The first request may
+    take ~30 seconds; subsequent requests are fast. On the mobile devices it
+    is recommended to add an image from the gallery rather than making a photo
+    online due to known Streamlit limitations.
