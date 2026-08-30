@@ -4,7 +4,8 @@ Hello, this is portfolio of my programming projects. Let's check it out :)
 
 ## AI/ML
 
-1. A production-grade AI/ML system that classifies household waste images into one of **10 categories** using deep learning. Built end-to-end — from model training to cloud deployment — as a full-stack ML engineering project.
+### 1. Waste Classifier
+A production-grade AI/ML system that classifies household waste images into one of **10 categories** using deep learning. Built end-to-end — from model training to cloud deployment — as a full-stack ML engineering project.
 
 <img width="1920" height="1632" alt="Glass" src="https://github.com/user-attachments/assets/500ab8ab-f05d-4bf8-9f4b-cb9aa5d40141" />
 
@@ -22,9 +23,45 @@ Hello, this is portfolio of my programming projects. Let's check it out :)
 | Cloud | Google Cloud Run, Artifact Registry |
 | IaC | Terraform |
 
+### 2. Iris
+Iris dataset is one of the most classical in data science (Fisher 1936).
+
+<img width="1400" height="502" alt="image" src="https://github.com/user-attachments/assets/c9ebea9a-3ee4-4fa4-890a-c34110343b62" />
+
+It contains 150 measurements of flowers belonging to the three species: 
+- Iris setosa, 
+- Iris versicolor,
+- Iris virginica.
+ 
+There are four features measured: 
+- sepal length,
+- sepal width,
+- petal length,
+- petal width.
+
+Each class contains 50 samples so the dataset is balanced. There are no missing values.
+The dataset is available at https://archive.ics.uci.edu.
+
+The project contains Exploratory Data Analysis (EDA) of this dataset and a performance comparison of six classical machine learning classification algorithms:
+- Nearest Centroid,
+- k-Nearest Neighbors,
+- Naive Bayes,
+- Decision Tree,
+- Random Forest,
+- Support Vector Machine
+
+and a Neural Network (Multi-layer Perceptron) on an Iris dataset.
+
+Since the dataset is small (150 samples), Leave-One-Out Cross-Validation (LOOCV) is performed to evaluate the accuracy of different models and compare them without random impact. Fit and score times are also saved and their averages are used later to compare the models.
+
+From the EDA we know that class 'Iris setosa' can be very easily separated from the other two classes by a boundary condition petal_length = 2.45.
+
+Note that I use my own python library `ml_lib` in order to show technical skills and a full control under the project.
+
 ## Physics
 
-3. Simulation of an ideal gas in a box. We can see how 10 000 of particles, starting from random initial positions and orientations, but having the same magnitudes of velocities, reaches the Maxwell-Boltzmann distribution of speeds. If we add gravity and temperature gradient (e.g. heating at the bottom and cooling at the top), the particles tend to self-organize and start to move in a convection roll.
+### 3. Ideal gas in a box
+Simulation of an ideal gas in a box. We can see how 10 000 of particles, starting from random initial positions and orientations, but having the same magnitudes of velocities, reaches the Maxwell-Boltzmann distribution of speeds. If we add gravity and temperature gradient (e.g. heating at the bottom and cooling at the top), the particles tend to self-organize and start to move in a convection roll.
 
 **Tech stack:** C, Wolfram Mathematica, Matlab, kinetic theory, statistical physics
 
@@ -32,7 +69,8 @@ Hello, this is portfolio of my programming projects. Let's check it out :)
 
 ![hist2](https://user-images.githubusercontent.com/58355098/210149036-abc5c0e1-634b-453b-ad13-38fe8f17923e.png)
 
-4. Simulation of an Ising-doped voter model on a square lattice. The simulation was a part of my scientific paper in Physical Review:
+### 4. Ising-doped voter model
+Simulation of an Ising-doped voter model on a square lattice. The simulation was a part of my scientific paper in Physical Review:
 https://journals.aps.org/pre/abstract/10.1103/PhysRevE.105.064120
 
 **Tech stack:** C, Wolfram Mathematica, Matlab, Linux
@@ -43,7 +81,8 @@ https://journals.aps.org/pre/abstract/10.1103/PhysRevE.105.064120
 
 ## Robotics
 
-5. Two-wheeled mobile robot controlled from a smartphone app. Robot measures the distance to the nearest obstacle and shows it in app.
+### 5. Two-wheeled mobile robot
+Two-wheeled mobile robot controlled from a smartphone app. Robot measures the distance to the nearest obstacle and shows it in app.
 
 **Tech stack:** Arduino, Bluetooth, MIT App Inventor 2, electronic circuits
 
@@ -58,7 +97,8 @@ https://journals.aps.org/pre/abstract/10.1103/PhysRevE.105.064120
 
 ## Embedded systems
 
-6. Cubic dice randomness tester - electronic circuit design with ATmega328P microprocessor. If you play boardgames with friends, you can check if you had luck or bad and saw statistics of your rolls.
+### 6. Cubic dice randomness tester
+An electronic circuit design with ATmega328P microprocessor. If you play boardgames with friends, you can check if you had luck or bad and saw statistics of your rolls.
 
 **Tech stack:** Arduino, soldered electronic circuits
 
@@ -68,7 +108,8 @@ https://journals.aps.org/pre/abstract/10.1103/PhysRevE.105.064120
 
 ## Complex simulations with industrial automation software
 
-7. Simulation of an apple juice factory in a Codesys software. Code is written in ST language on Astraada PLC.  
+### 7. Simulation of an apple juice factory
+Written in a Codesys software in ST language on Astraada PLC.  
 
 **Tech stack:** Codesys, ST, PLC, thermodynamics
 
@@ -76,7 +117,8 @@ https://user-images.githubusercontent.com/58355098/210151134-c61ba448-6e9f-4cc5-
 
 ## Classical GUI applications
 
-8. Traffic simulation with GUI, written in C++ in OOP paradigm. The main aim is to mimic real traffic with smoothness of car movements including collision avoidance.
+### 8. Traffic simulation
+A "retro" application with GUI, written in C++ in OOP paradigm. The main aim is to mimic real traffic with smoothness of car movements including collision avoidance.
 
 **Tech stack:** Visual Studio C++, classical mechanics
 
